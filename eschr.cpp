@@ -629,7 +629,7 @@ int main(int argc, char ** argv){
 					case SDLK_a:
 						cubeStretchSub = true;
 					break;
-					case SDLK_y:
+					case SDLK_z:
 						cubeStretchReset = true;
 					break;
 					case SDLK_RIGHT:

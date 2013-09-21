@@ -1,1 +1,23 @@
 eschr
+
+i love m.c. escher. so when learning c++ and opengl i created this program to have an interesting challenge. 
+
+http://creativecommons.org/licenses/by/3.0/
+
+have fun!
+
+
+keys:
+q/a	flatness
+z	reset flatness
+w/s	eschr position
+x	reset eschr position
+e/d	colors
+
+i/k, j/l, u/o rotate eschr
+m	reset eschr rotation
+
+cursor left/right rotate surface
+
+esc	quit
+
