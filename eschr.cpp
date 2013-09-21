@@ -9,7 +9,6 @@
 
 #include <math.h>
 #include <stdio.h>
-//#include "Texture.h"
 
 #include "eschr.h"
 #include "eschrObject.h"
@@ -193,7 +192,7 @@ GLvoid drawCubeParts (GLfloat posX, GLfloat posY, GLfloat posZ, int parts, GLflo
 	GLfloat len = length;
 	
 	// define normal-vector for plane
-	GLfloat nv[]={1,1,1};
+//GLfloat nv[]={1,1,1};
 
 	// vertices for cube
 	GLfloat v[14][3] = {
@@ -685,6 +684,8 @@ int main(int argc, char ** argv){
 					case SDLK_m:
 						eschrRotateReset = true;
 					break;
+					default:
+						break;
 				}
 			}else if(event.type == SDL_KEYUP){
 				switch (event.key.keysym.sym){
@@ -731,7 +732,8 @@ int main(int argc, char ** argv){
 					case SDLK_u:
 						eschrRotateZneg = false;
 					break;
-
+					default:
+						break;
 					
 				}
 			}
