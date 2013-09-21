@@ -1,0 +1,6 @@
+.svn
+*.o
+eschr
+.cproject
+.project
+
